@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //This is the Mens Shoe Convertor side of the App.
+    
     @IBAction func convertButtonPressed(sender: UIButton) {
         
         let sizeFromTextField = mensShoeSizeTextField.text.toInt()!
@@ -38,6 +40,8 @@ class ViewController: UIViewController {
         mensShoeSizeTextField.resignFirstResponder()
         
     }
+    
+    //This is the women converter, and adding comment to practice my Git pushes
     
     @IBAction func convertButtonPressedWomen(sender: UIButton) {
         let sizeFromTextField = Double((womensShoeSizeTextField.text as NSString).doubleValue)
